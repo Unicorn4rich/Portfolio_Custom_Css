@@ -1,0 +1,50 @@
+.port_Sec{
+    width: 100%;
+    background-color: var(--background-blacki);
+    padding: 9rem 2rem;
+    text-align: center;
+}
+
+.port_Sec h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.port_Sec span{
+    color: var(--logo-color);
+}
+
+.port_Sec p{
+    font-size: 1.0637rem;
+    line-height: 1.75rem;
+    margin-bottom: 6rem
+}
+
+.project_cards{
+    width: 100%;
+    display: grid;
+    gap: 95px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 768px){
+    .port_Sec{
+        padding: 6.25rem 2rem;
+        
+    }
+
+    .project_cards{
+        gap: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 390px){
+    .project_cards{
+        gap: 56px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

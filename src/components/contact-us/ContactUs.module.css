@@ -1,0 +1,131 @@
+.Cantact_Us{
+    width: 100%;
+    background-color: var(--background-grash);
+    padding: 9.625rem 9.1875rem 10rem 9.1875rem;
+    text-align: center;
+}
+
+.Cantact_Us h1{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.Cantact_Us span{
+    color: var(--logo-color);
+}
+
+.Cantact_Us p{
+    font-size: 1.0456rem;
+    line-height: 1.75rem;
+    margin-top: 1.125rem;
+    margin-bottom: 6rem;
+}
+
+.Main_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 120px; */
+}
+
+.text_leftDiv{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.left_text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+}
+
+.left_text :nth-child(2){
+    color: #6e645b;
+}
+
+.left_text :nth-child(3){
+    color: var(--logo-color);
+}
+
+.for_flex{
+    display: flex;
+    gap: 16px;
+}
+
+
+/* form div start */
+
+.form_rightDiv{
+    width: 650px;
+}
+
+.form_rightDiv form{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.top_inputDiv{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+.top_inputDiv input{
+    width: 321px;
+}
+
+.input_Details{
+    padding: 15px 0px 15px 12px;
+    font-size: 15px;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.input_btn{
+    width: 178px;
+    height: 52px;
+    background-color: var(--button-bg);
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--button-hover-color);
+    }
+}
+
+
+@media (max-width: 768px){
+    .Cantact_Us{
+        padding: 6.25rem 2rem;
+    }
+
+    .Main_div{
+        flex-direction: column;
+        gap:2.5rem;
+    }
+
+    .form_rightDiv{
+        width: 100%;
+    }
+
+    .top_inputDiv{
+        flex-direction: column;
+        gap: 2.1875rem;
+    }
+
+    .top_inputDiv input{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 390px){
+    .Cantact_Us{
+        padding: 154px 16px 154px 16px;
+    }
+}

@@ -1,0 +1,29 @@
+
+.languages_Sec{
+    width: 100%;
+    background-color: var(--background-grash);
+    padding: 1.25rem 4.9375rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+
+
+@media (max-width: 768px){
+    .languages_Sec{
+        padding: 20px;
+        gap: 3px;
+    }
+}
+
+
+@media (max-width: 390px){
+    .languages_Sec{
+        padding: 2.625rem 0rem;
+        gap: 3.125rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+}

@@ -1,0 +1,70 @@
+.about_sec{
+    width: 100%;
+    background-color: var(--background-light-gary);
+    padding: 10rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_lefti{
+    width: 41.61%;
+}
+
+.about_lefti h1{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: .5rem;
+}
+
+.about_lefti h3{
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--logo-color)
+}
+
+.about_lefti p{
+    font-size: 16.88px;
+    line-height: 1.6875rem;
+    margin-top: 1.4688rem;
+    margin-bottom: 2.0313rem
+}
+
+.rightDiv{
+    margin-right: 11.9031rem;
+    border: .3125rem solid white;
+    border-radius: .25rem;
+}
+
+
+
+@media (max-width: 768px){
+    .about_sec{
+        padding: 3.75rem 2.5rem;
+    }
+
+    .about_lefti{
+        width: 45.182%;
+    }
+
+    .rightDiv{
+        margin-right: 0px;
+    }
+
+    .img{
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 390px){
+    .about_sec{
+        padding: 50px 29px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about_lefti{
+        width: 90%;
+    }
+}

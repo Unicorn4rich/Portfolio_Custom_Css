@@ -1,0 +1,48 @@
+
+/* yahn se card ki css start */
+
+.card{
+    /* flex: 0 0 0 calc((100% - 64px) / 3) ; */
+    flex-shrink: 0;                         /* shrink mat hony do =>  ye 3no property alag alag bhi likh sakty hain. */
+    flex-grow: 0;                            /* grow mat hony do */
+    width: calc((100% - 64px) / 3);            /* iska jo actual size hai isy utna hi rakho bara choty mat hony do */
+    padding: 2.125rem 1.75rem 3.5rem 1.75rem;
+    background-color: var(--background-grash); 
+    text-align: center;
+    border-radius: 1rem;
+    border-top: 3px solid white;
+    margin-right: 32px;
+}
+
+.card_img{
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.card p{
+    font-size: .9375rem;
+    margin-bottom: 1rem;
+}
+
+.card span{
+    color: var(--logo-color);
+}
+
+
+@media (max-width: 768px){
+    .card{
+        width: calc((100% - 32px) / 2); 
+    }
+}
+
+
+@media (max-width: 390px){
+    .card{
+        width: calc((100% - 16px) / 1); 
+    }
+}

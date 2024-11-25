@@ -1,0 +1,11 @@
+
+.button{
+    padding: .6563rem 3rem;    /*  Y = X  */
+    background-color: var(--button-bg);
+    border-radius: 8px;
+    font-size: 15.38px;
+
+    &:hover{
+        background-color:var(--button-hover-color);
+    }
+}

@@ -1,0 +1,53 @@
+.Testimono_Sec{
+    width: 100%;
+    padding: 9.625rem 2.5rem 10rem 2.5rem;
+    background-color: var(--background-blacki);
+    text-align: center;
+}
+
+.Testimono_Sec h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 5.625rem;
+}
+
+.Testimono_Sec span{
+    color: var(--logo-color);
+}
+
+
+/* yahn se embla start hai  */
+
+
+.embla{
+    overflow: hidden;
+    /* background-color: blue; */
+}
+
+.embla__container{
+    display: flex;
+    /* background-color: red; */
+}
+
+
+@media (max-width: 768px){
+    .Testimono_Sec{
+        padding: 100px 32px;
+    }
+}
+
+
+@media (max-width: 390px){
+    .Testimono_Sec{
+        padding: 154px 16px 154px 16px;
+    }
+
+    .Testimono_Sec h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    /* .embla__container{
+        flex-direction: column;
+    } */
+}
