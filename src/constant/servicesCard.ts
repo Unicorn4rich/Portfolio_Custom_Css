@@ -1,4 +1,4 @@
-export let s_Card_data = [
+export const s_Card_data = [
     {
         src: "/Images/branding.png",
         title: "branding",

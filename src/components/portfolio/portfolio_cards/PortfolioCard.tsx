@@ -12,7 +12,7 @@ function PortfolioCard() {
   return (
     <>
 
-     {poerfolioCard.map((item, index) =>{return(
+     {poerfolioCard.map((item) =>{return(
 
         <motion.div className={styles.card} key={item.id}
         initial={{opacity: 0, scale: 0}}
@@ -32,7 +32,7 @@ function PortfolioCard() {
                 </div>
 </Link>    
 
-                <div className={styles.card_text}>Lorem, ipsum.</div>
+                <div className={styles.card_text}>{item.title}</div>
 
         </motion.div>
 

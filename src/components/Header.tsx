@@ -10,7 +10,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 function Header() {
 
- let [Open, setOpen] = React.useState(false);
+ const [Open, setOpen] = React.useState(false);
 
   return (
     <>
@@ -32,24 +32,24 @@ function Header() {
             >
 
             <FaRegWindowClose size={30} className={styles.closing}  onClick={()=>{setOpen(!Open)}} />   {/* closing icon */}
-             <li><Link href={"#!"}>Home</Link></li>
-             <li><Link href={"#!"}>About</Link></li>
-             <li><Link href={"#!"}>Portfolio</Link></li>
-             <li><Link href={"#!"}>Services</Link></li>
-             <li><Link href={"#!"}>Testimonials</Link></li>
-             <li><Link href={"#!"}>Contact</Link></li>
+             <li><Link href={"/"}>Home</Link></li>
+             <li><Link href={"#about"}>About</Link></li>
+             <li><Link href={"#portfolio"}>Portfolio</Link></li>
+             <li><Link href={"#service"}>Services</Link></li>
+             <li><Link href={"#testimonial"}>Testimonials</Link></li>
+             <li><Link href={"#contact"}>Contact</Link></li>
 
            </motion.ul>
           ) 
           : 
           (    // Open false hoga to ye code chalega
             <ul className={`${interFont.className} ${styles.navUl}`}>
-              <li><Link href={"#!"}>Home</Link></li>
-              <li><Link href={"#!"}>About</Link></li>
-              <li><Link href={"#!"}>Portfolio</Link></li>
-              <li><Link href={"#!"}>Services</Link></li>
-              <li><Link href={"#!"}>Testimonials</Link></li>
-              <li><Link href={"#!"}>Contact</Link></li>
+              <li><Link href={"/"}>Home</Link></li>
+              <li><Link href={"#about"}>About</Link></li>
+              <li><Link href={"#portfolio"}>Portfolio</Link></li>
+              <li><Link href={"#service"}>Services</Link></li>
+              <li><Link href={"#testimonial"}>Testimonials</Link></li>
+              <li><Link href={"#contact"}>Contact</Link></li>
             </ul>
           )}
 
@@ -75,8 +75,8 @@ export default Header
 
 <motion.ul></motion.ul>
 
-animate={{opacity: 1, width: "40%"}}           animation ke waqt 
 initial={{opacity: 0, width: 0}}               animation start se pehly 
+animate={{opacity: 1, width: "40%"}}           animation ke waqt 
 exit={{opacity: 0, width: 0}}                  animation band hoty waqt 
 transition={{duration: 0.2, type: "spring"}}   animation kitni der tak ho or kis style mein 
 key={"active"}                                 animation band hoty waqt slowly band ho iski wajah se 

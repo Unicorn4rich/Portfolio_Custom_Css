@@ -10,7 +10,7 @@ function About(){
     return(
         <>
         
-        <section className={styles.about_sec}>
+        <section id="about" className={styles.about_sec}>
 
 
             <motion.div className={styles.about_lefti} 

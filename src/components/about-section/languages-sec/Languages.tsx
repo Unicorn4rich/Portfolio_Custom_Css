@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 
 
 // Parent section
-let Container_Verient = {
+const Container_Verient = {
     hidden:{},  // pehly ki halat mein ye ghaib ho
     show:{      // or jab ye show ho to aisa ho
         transition: {

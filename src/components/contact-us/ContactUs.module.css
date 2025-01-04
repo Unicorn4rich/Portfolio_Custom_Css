@@ -1,6 +1,6 @@
 .Cantact_Us{
     width: 100%;
-    background-color: var(--background-grash);
+    background-color: #797571;
     padding: 9.625rem 9.1875rem 10rem 9.1875rem;
     text-align: center;
 }
@@ -43,11 +43,11 @@
 }
 
 .left_text :nth-child(2){
-    color: #6e645b;
+    color: black;
 }
 
 .left_text :nth-child(3){
-    color: var(--logo-color);
+    color: black;
 }
 
 .for_flex{

@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import styles from "./Testimonials.module.css"
-import {caveatFont, interFont} from "@/font"
+import {caveatFont, } from "@/font"
 import useEmblaCarousel from 'embla-carousel-react'
 import Testmonial from "@/components/testimonials-sec/testimonial-card/Testmonial"
 import Autoplay from 'embla-carousel-autoplay'
@@ -13,7 +13,7 @@ function Testimonials() {
   return (
     <>
     
-    <section className={styles.Testimono_Sec}>
+    <section className={styles.Testimono_Sec} id="testimonial">
 
         <h1 className={caveatFont.className}>
             <span>W</span>hat <span>O</span>ther <span>P</span>eople <span>S</span>ay

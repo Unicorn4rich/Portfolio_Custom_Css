@@ -8,10 +8,11 @@
 .hero_sec h1{
     font-size: 1.8987rem;
     line-height: 3rem;
+    
 }
 
 .hero_sec span{
-    color: var(--logo-color);
+    color: #494846;
 }
 
 .hero_sec p{
@@ -26,7 +27,7 @@
     gap: 3.125rem;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--logo-color);
+    background-color: #A9927D;
     border-radius: 1.625rem;
     margin-top: 3.1306rem;
     margin-bottom: 4.375rem;

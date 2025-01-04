@@ -20,7 +20,7 @@ function HeroSection() {
     
     <section className={`${styles.hero_sec} ${interFont.className}`}>
 
-        <h1>Hey! I'm {" "} <span>Shoaib Khan</span>
+        <h1>Hey! I m {" "} <span>Shoaib Khan</span>
   {" "} <motion.span style={{fontSize: "50px", display: "inline-block", }}
         animate={{rotate: [0, 15, -10, 20, -10, 0]}}
         transition={{duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
@@ -28,7 +28,7 @@ function HeroSection() {
         >🖐</motion.span>
 
         <br/>
-        <span>I</span>&apos; 'm
+        <span>I</span>&apos; m
 
         <Typewriter words={[' A Front End Web Developer', ' Ux Ui Designer']} 
         loop={Infinity}
@@ -47,11 +47,11 @@ function HeroSection() {
         <Button text={"Hire me"}/> <br/>
 
         <div className={styles.my_icons}>
-        <FaFacebookF size={30} color="black" />
-        <FaXTwitter size={30} color="black" />
-        <FaInstagram size={30} color="black" />
-        <FaWhatsapp size={30} color="black" />
-        <FaTelegramPlane size={30} color="black" />
+        <FaFacebookF size={30} color="white" />
+        <FaXTwitter size={30} color="white" />
+        <FaInstagram size={30} color="white" />
+        <FaWhatsapp size={30} color="white" />
+        <FaTelegramPlane size={30} color="white" />
         </div>
 
         <div className={styles.bottom_logoDiv}>

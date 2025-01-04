@@ -8,7 +8,7 @@ import S_Cards from "@/components/services-sec/s-cards/sCards"
 function Services(){
     return(
         <>
-        <section className={styles.Services}>
+        <section className={styles.Services} id="service">
 
             <h1 className={caveatFont.className}>
                 <span>W</span>hat <span>I</span> <span>D</span>o <span>F</span>or <span>C</span>lients

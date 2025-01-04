@@ -4,10 +4,10 @@
 
 
 :root{
-    --background-blacki: #0A0908;
+    --background-blacki: #cecbc7;
     --background-grash: #1A1A1A;
     --background-light-gary: #222222;
-    --logo-color: #A9927D;
+    --logo-color: white;
     --button-bg: #5E503F;
     --button-hover-color: #7D674C;
 }
@@ -15,4 +15,5 @@
 html, body{
     color: white;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }

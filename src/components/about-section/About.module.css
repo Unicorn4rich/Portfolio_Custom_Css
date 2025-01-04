@@ -1,6 +1,6 @@
 .about_sec{
     width: 100%;
-    background-color: var(--background-light-gary);
+    background-color: #cecbc7;
     padding: 10rem 3.5rem;
     display: flex;
     justify-content: space-between;
@@ -20,14 +20,15 @@
 .about_lefti h3{
     font-size: 30px;
     line-height: 36px;
-    color: var(--logo-color)
+    color: rgb(61, 60, 60);
 }
 
 .about_lefti p{
     font-size: 16.88px;
     line-height: 1.6875rem;
     margin-top: 1.4688rem;
-    margin-bottom: 2.0313rem
+    margin-bottom: 2.0313rem;
+    color: black;
 }
 
 .rightDiv{

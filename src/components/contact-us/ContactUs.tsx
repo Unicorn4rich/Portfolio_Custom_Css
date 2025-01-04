@@ -39,7 +39,7 @@ function Conractus(){
     return(
         <>
         
-        <section className={`${styles.Cantact_Us} ${interFont.className}`}>
+        <section className={`${styles.Cantact_Us} ${interFont.className}`} id="contact">
 
             <h1 className={caveatFont.className}><span>C</span>ontact <span>M</span>e</h1>
 

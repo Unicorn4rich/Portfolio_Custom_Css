@@ -18,7 +18,8 @@
 .port_Sec p{
     font-size: 1.0637rem;
     line-height: 1.75rem;
-    margin-bottom: 6rem
+    margin-bottom: 6rem;
+    color: black;
 }
 
 .project_cards{
